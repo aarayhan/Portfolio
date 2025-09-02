@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- bagian navbar -->
+    <header>
+       <nav>
+    <div class="container">
+        <a class="home" href='index.html'>
+            <span class="Y">Yahya </span>
+            <span class="Ar">Ar Rayhan</span>
+        </a>    
+    </div>
+
+    <!-- Hamburger checkbox -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+    <!------------------------------>
+
+    <div class="main-nav">
+        <ul class="link-nav">
+            <li class="link">
+                <a href="project.html">Project</a>
+            </li>
+            <li class="link">
+                <a href="about.html">About</a>
+            </li>
+            <li class="link">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    </header>
+
+    <!-- hero section (Profile) -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1><span class="first-name">Muhammad Yahya</span> <span class="last-name">Ar Rayhan</span></h1>
+                <p class="hero-description">Web Developer passionate about creating functional and beautiful digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="project.html" class="btn-primary">View Projects</a>
+                    <a href="contact.html" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/Profile.jpg" alt="Yahya Ar Rayhan">
+            </div>
+        </section>
+
+        <!-- Skill Section -->
+        <section class="skill">
+            <div class="skill-head">
+                <h1 class="skill-title">My <span id="skill-txt">Skills</span></h1>
+                <p class="skill-desc">I specialize in Frontend development with a focus on creating responsive and user-friendly. <br>Here are some technologies i work with:</p>
+
+                <div class="skill-grid">
+                    <!-- skill 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="skill-name">HTML</h3>
+                    </div>
+
+                    <!-- skill 2 -->
+                     <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3 class="skill-name">CSS</h3>
+                    </div>
+                    
+                    <!-- skill 3 -->
+                     <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3 class="skill-name">JavaScript</h3>
+                    </div>
+                    
+                    <!-- skill 4 -->
+                     <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="skill-name">SQL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Experience Section -->
+        <section class="experience">
+            <div class="ex-content">
+                <h1 class="experience-title">My <span id="experience-txt">Experience</span></h1>
+                
+                <div class="ex-grid">
+                    <!-- exp -->
+                    <div class="ex-card">
+                        <div class="exp-image-container">
+                            <img src="img/exp1.jpg" alt="Archery" class="exp-image">
+                        </div>
+                        <div class="exp-details">
+                            <h3 class="exp-title">Archery Competition</h3>
+                            <p class="exp-desc">
+                                Juara 1 Lomba panahan yang diselenggarakan oleh sekolah Nurul Fikri Boarding School Bogor.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- exp 2 -->
+                    <div class="ex-card">
+                        <div class="exp-image-container">
+                            <img src="img/exp2.png" alt="Web Design" class="exp-image">
+                        </div>
+                        <div class="exp-details">
+                            <h3 class="exp-title">Web KelasKita</h3>
+                            <p class="exp-desc">
+                                Project pembuatan Course Website Frontend meggunakan Bootstrap Framework.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- exp 3 -->
+                    <div class="ex-card">
+                        <div class="exp-image-container">
+                            <img src="img/exp3.png" alt="UI Development" class="exp-image">
+                        </div>
+                        <div class="exp-details">
+                            <h3 class="exp-title">UI Design</h3>
+                            <p class="exp-desc">
+                                Project UI Design e-commers HICYCLE yang menunjukkan berbagai brand sepeda terbaik di dunia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Yahya Ar Rayhan. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
